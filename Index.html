@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> 
+    <link href="./Style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <div id="head">
+         
+          <nav class="navbar navbar-expand-md navbar-dark bg-blue ">
+            <div class="container">
+              <a class="navbar-brand" href="#">Joycee</a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+    
+             <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a  class="nav-link active" href="#head">  Home</a></li>
+              <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link active" href="#projects">Projects</a></li>
+              <li  class="nav-item"><a class="nav-link active" href="#contact">Contact</a></li>
+              
+            </ul>
+            </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    
+      <section class="firstSection">
+        <div class="leftSection">
+    
+          <h1> Hi , I'm <span>Joycee </span> <br> and i am a passionate web developer </h1>
+    
+        </div>
+    
+        <div class="rightSection">
+    
+          <img src="./joy.png" alt=" ">
+    
+        </div>
+      </section>
+    
+      <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <h1 class="sub-titile">About Me</h1>
+              <p>I am an ambitious person who constantly motivated to learn and grasp new skills.</p>
+    
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills',event)"> Skills</p>
+                <p class="tab-links" onclick="opentab('experience', event)"> Experience</p>
+                <p class="tab-links" onclick="opentab('education', event)"> Education</p>
+                <p class="tab-links" onclick="opentab('certifications',event)"> Certifications</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>Programming language</span> <br> C language ,Java,HTML,CSS, Bootstrap </li>
+                  <li><span>Framework</span> <br> Angular JS , Spring , Spring-boot </li>
+                  <li><span>Data Base</span> <br> Mysql , MongoDB</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>FrontEnd Web Developer - present </span> <br> at Rivach 2023</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>Primary Education</span> <br> Takshashila High School - 2016 </li>
+                  <li><span>Secondary Education</span> <br> Narayana Junior College - [2016-2018] </li>
+                  <li><span>Bachelor of Engineering </span> <br> Matrusri Engineering College - [2018-2022] </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="certifications">
+                <ul>
+                  <li><span>StackRoute Certified PGP in</span> <br> Full Stack Software Engineering NIIT - on going </li>
+                  <li><span>Cryptocurrency and Blockchain </span> <br> in MyCaptain - [may-2020]</li>
+    
+                </ul>
+              </div>
+    
+            </div>
+    
+          </div>
+    
+        </div>
+    
+      </section>
+    
+      <section id="projects">
+        <div class="container">
+          <h1 class="sub-title">My Projects</h1>
+          <div class="project-list">
+            <div>
+              <h2>Pizza Web Application</h2>
+              <p> Created an intuitive Pizza Ordering System with 
+                user-friendly CRUD operations, employing Angular for a dynamic and interactive frontend experience. <br>
+                Utilized Angular to craft a visually appealing and responsive interface , enhancing user engagement in the Pizza Ordering System. <br>
+                Orchestrated a seamless user registration and login process, coupled with intuitive pizza selection and cart management features, providing an exceptional
+                ordering experience. <br>
+                Implemented robust frontend technologies , including Angular, to fashion a highly interactive and visually appealing interface, elevating the user experience in the Pizza Ordering System.
+              </p>
+            </div>
+    
+            <div>
+              <h2>The Jukebox</h2>
+              <p>Solo project based on Java and MySql using JDBC. <br> User can register themselves to listen to the songs
+                or podcasts available
+                add them to playlist and perform other playlist operations. <br> Features in the platform to perform
+                operations on the audio for play,pause, rewind and stop .
+              </p>
+            </div>
+    
+            <div>
+              <h2>IoT instant contactless COVID test registration automated system</h2>
+              <p> A Team of 3 members <br>
+                Our methodology is to use OCR technique to develop an IOT-based contactless automated covid test
+                registration system. <br>
+                To reduce the manual entries errors and minimize the time in the registration process. <br>
+                To transfer the data to the lab using IOT .
+              </p>
+            </div>
+    
+            <div>
+              <h2>IoT based gas alert system</h2>
+              <p>A Team of 3 members <br>
+                The primary objective of the Gas leakage detection system is to detect the
+                malfunctioning of the pressurized gas system in order to prevent the accumulation of the gases so, that the
+                explosion does not
+                happen.
+    
+              </p>
+            </div>
+    
+          </div>
+    
+        </div>
+    
+      </section>
+    
+      <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title"> Contact Me</h1>
+              <p><i class="bi bi-envelope-fill"></i>joyceenirmal123@gmail.com </p>
+              <p><i class="bi bi-telephone-fill"></i>7702999253 </p>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/joycee-alfred-nirmal-86444a214/"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/accounts/login/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </section>
+    
+      <script>
+    
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+          for (tablink of tablinks) {
+            // tablink.style.display="none";
+            tablink.classList.remove("active-link");
+          }
+          for (tabcontent of tabcontents) {
+            tabcontent.style.display="";
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).style.display = "block";
+        document.getElementById(tabname).classList.add("active-tab");
+          document.getElementById(tabname).classList.add("active-tab");
+    
+        }
+      </script>
+
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> 
+</body>
+</html>

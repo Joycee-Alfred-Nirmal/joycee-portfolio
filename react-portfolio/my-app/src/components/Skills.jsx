@@ -9,6 +9,8 @@ import spring from "../assets/spring.png";
 import springboot from "../assets/springboot.png";
 import mysql from "../assets/mysql.png";
 import mongodb from "../assets/mongodb.png";
+import react from "../assets/react.png";
+import tailwind from "../assets/tailwind.png";
 
 
 const Skills = () => {
@@ -113,6 +115,20 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={mongodb} alt='mongodb.png'/>
                     <p className='my-4'>MongoDb</p>
+
+
+                </div>
+
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={react} alt='react.png'/>
+                    <p className='my-4'>React.js</p>
+
+
+                </div>
+
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={tailwind} alt='tailwind.png'/>
+                    <p className='my-4'>Tailwind</p>
 
 
                 </div>

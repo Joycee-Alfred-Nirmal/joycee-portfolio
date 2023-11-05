@@ -15,7 +15,7 @@ const About = () => {
                     <p>Hi,I'm joycee , nice to meet you. Please take a look around </p>
                     </div>
                     <div>
-                        <p>
+                        <p className='text-3xl'>
                         I am an ambitious person who constantly motivated to learn and grasp new skills.
                         </p>
                     </div>
